@@ -5,7 +5,7 @@
  * 使用Vue 3和Vite构建，支持消息通信测试。
  */
 
-export const version = '1.0.2';
+export const version = '1.0.3';
 
 /**
  * 创建一个新的Chrome DevTools面板扩展项目

@@ -3,6 +3,7 @@
     <h1>{{ result }}</h1>
    这个是一个示例组件。它使用了 Vue 3 的组合式 API，包括 ref 和 onMounted 钩子。
 
+
   </div>
 </template>
 <script setup>

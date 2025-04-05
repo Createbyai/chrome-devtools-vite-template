@@ -1,7 +1,7 @@
 {
-  "name": "chrome-devtools-panel",
+  "name": "chrome-devtools-panel-template",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.3",
   "type": "module",
   "scripts": {
     "build": "vite build",

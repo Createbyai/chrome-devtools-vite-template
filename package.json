@@ -1,6 +1,6 @@
 {
   "name": "chrome-devtools-panel-template",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vue 3 + Vite template for building Chrome DevTools panel extensions",
   "type": "module",
   "files": [
@@ -22,18 +22,21 @@
   "scripts": {
     "build": "vite build",
     "watch": "vite build --watch",
-    "build:extension": "vite build && cd dist && zip -r chrome-devtools-extension.zip ."
+    "build:extension": "vite build && cd dist && zip -r chrome-devtools-extension.zip .",
+    "sync-template": "node sync-template.js",
+    "prepare-publish": "npm run sync-template && npm version patch",
+    "publish-package": "npm publish"
   },
   "author": "Createbyai",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Createbyai/chrome-devtools-panel-template"
+    "url": "https://github.com/Createbyai/chrome-devtools-vite-template"
   },
   "bugs": {
-    "url": "https://github.com/Createbyai/chrome-devtools-panel-template/issues"
+    "url": "https://github.com/Createbyai/chrome-devtools-vite-template/issues"
   },
-  "homepage": "https://github.com/Createbyai/chrome-devtools-panel-template#readme",
+  "homepage": "https://github.com/Createbyai/chrome-devtools-vite-template#readme",
   "engines": {
     "node": ">=14.0.0"
   },
