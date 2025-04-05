@@ -1,0 +1,23 @@
+{
+  "name": "Devtools - inspectedWindow API sample",
+  "description": "Uses devtools.inspectedWindow to collect and use data on the resouces used in a web page.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "devtools_page": "devtools.html",
+  "permissions":["scripting", "tabs", "activeTab"],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "host_permissions": [
+    "*://*/*",
+    "<all_urls>" 
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+  
+} 

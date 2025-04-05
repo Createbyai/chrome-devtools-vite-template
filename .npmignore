@@ -1,0 +1,33 @@
+# 开发资源
+node_modules
+.vscode
+.idea
+.DS_Store
+
+# 构建输出
+dist
+*.zip
+*.crx
+
+# 源代码（不作为模板的部分）
+src
+public
+*.html
+Panel.vue
+panel.js
+
+# Git
+.git
+.gitignore
+
+# 日志
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 本地环境文件
+.env
+.env.local
+.env.*.local 
