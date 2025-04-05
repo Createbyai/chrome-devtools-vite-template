@@ -1,6 +1,6 @@
 {
   "name": "chrome-devtools-panel-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue 3 + Vite template for building Chrome DevTools panel extensions",
   "type": "module",
   "files": [
