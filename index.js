@@ -5,7 +5,7 @@
  * 使用Vue 3和Vite构建，支持消息通信测试。
  */
 
-export const version = '1.0.0';
+export const version = '1.0.2';
 
 /**
  * 创建一个新的Chrome DevTools面板扩展项目
@@ -20,7 +20,7 @@ export async function create(projectName, options = {}) {
   const execAsync = promisify(exec);
   
   try {
-    await execAsync(`npx create-chrome-devtools-panel ${projectName}`);
+    await execAsync(`npx chrome-devtools-panel-template ${projectName}`);
     console.log(`成功创建项目: ${projectName}`);
   } catch (error) {
     console.error('创建项目失败:', error.message);
@@ -42,7 +42,6 @@ export function getTemplateInfo() {
       'Vue 3 组件系统',
       'Vite构建工具',
       'Chrome DevTools API集成',
-      '通信测试工具',
       '自动文件监视'
     ],
     author: 'CreateByAi'

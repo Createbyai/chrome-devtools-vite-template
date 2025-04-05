@@ -17,11 +17,11 @@
 
 ```bash
 # 使用NPX创建项目
-npx create-chrome-devtools-panel my-panel
+npx chrome-devtools-panel-template my-panel
 
 # 或者先全局安装模板，然后使用它
 npm install -g chrome-devtools-panel-template
-create-chrome-devtools-panel my-panel
+chrome-devtools-panel-template my-panel
 ```
 
 ## 项目结构

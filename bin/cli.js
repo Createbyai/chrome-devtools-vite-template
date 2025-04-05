@@ -14,7 +14,7 @@ const projectName = process.argv[2];
 
 if (!projectName) {
   console.error('请提供项目名称:');
-  console.error('  npx create-chrome-devtools-panel my-panel');
+  console.error('  npx chrome-devtools-panel-template my-panel');
   process.exit(1);
 }
 
